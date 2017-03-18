@@ -12,7 +12,7 @@ export default () => (
         <p>{'Front-end developer based in Helsinki, Finland.'}</p>
         <p>
           {'Currently working for '}
-          <a href="https://www.freska.fi">{'Freska'}</a>
+          <a href="https://www.freska.fi" target="_blank">{'Freska'}</a>
           {'.'}
         </p>
         <SomeIcons />
