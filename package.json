@@ -1,0 +1,19 @@
+{
+  "name": "jerep-website",
+  "description": "Jere's Website",
+  "author": "Jere Piispanen",
+  "version": "1.0.0",
+  "private": true,
+  "main": "pages/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "cxs": "3.0.4",
+    "next": "2.0.0-beta.38",
+    "react": "15.4.2",
+    "react-dom": "15.4.2"
+  }
+}
