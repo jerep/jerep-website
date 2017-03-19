@@ -18,7 +18,7 @@ export default () => (
 )
 
 const cx = cxs({
-  a: {
+  'a:not(:last-child)': {
     marginRight: '10px'
   }
 })
