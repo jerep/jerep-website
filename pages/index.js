@@ -1,25 +1,5 @@
-import cxs from 'cxs'
-import SomeIcons from '../components/SomeIcons'
-
-export default () => (
-  <div className={cx.root}>
-    <div className={cx.card}>
-      <div className={cx.side}>
-        <img className={cx.avatar} src="/static/avatar.jpg" />
-      </div>
-      <div className={cx.body}>
-        <h1>{'Jere Piispanen'}</h1>
-        <p>{'Front-end developer based in Helsinki, Finland.'}</p>
-        <p>
-          {'Currently working for '}
-          <a href="https://www.freska.fi" target="_blank">{'Freska'}</a>
-          {'.'}
-        </p>
-        <SomeIcons />
-      </div>
-    </div>
-  </div>
-)
+import cxs from 'cxs';
+import SomeIcons from '../components/SomeIcons';
 
 const cx = {
   root: cxs({
@@ -75,4 +55,28 @@ const cx = {
   title: cxs({
     fontWeight: 'bold'
   })
-}
+};
+
+const Index = () => (
+  <div className={cx.root}>
+    <div className={cx.card}>
+      <div className={cx.side}>
+        <img className={cx.avatar} src="/static/avatar.jpg" />
+      </div>
+      <div className={cx.body}>
+        <h1>{'Jere Piispanen'}</h1>
+        <p>{'Front-end developer based in Helsinki, Finland.'}</p>
+        <p>
+          {'Currently working for '}
+          <a href="https://www.freska.fi" target="_blank">
+            {'Freska'}
+          </a>
+          {'.'}
+        </p>
+        <SomeIcons />
+      </div>
+    </div>
+  </div>
+);
+
+export default Index;
