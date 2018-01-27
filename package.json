@@ -11,9 +11,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "cxs": "3.0.4",
-    "next": "2.0.1",
-    "react": "15.4.2",
-    "react-dom": "15.4.2"
+    "cxs": "^3.0.4",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
